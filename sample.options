@@ -1,0 +1,207 @@
+<Options>
+  <FormattingProfile>
+    <!--  Indentation -->
+    <Property name="IndentNamespaceBody" value="true" />
+    <Property name="IndentClassBody" value="true" />
+    <Property name="IndentInterfaceBody" value="true" />
+    <Property name="IndentStructBody" value="true" />
+    <Property name="IndentEnumBody" value="true" />
+    <Property name="IndentMethodBody" value="true" />
+    <Property name="IndentPropertyBody" value="true" />
+    <Property name="IndentEventBody" value="true" />
+    <Property name="IndentBlocks" value="true" />
+    <Property name="IndentSwitchBody" value="false" />
+    <Property name="IndentCaseBody" value="true" />
+    <Property name="IndentBreakStatements" value="true" />
+    <Property name="AlignEmbeddedStatements" value="true" />
+    <Property name="AlignElseInIfStatements" value="false" />
+    <Property name="AutoPropertyFormatting" value="AllowOneLine" />
+    <Property name="SimplePropertyFormatting" value="AllowOneLine" />
+    <Property name="EmptyLineFormatting" value="DoNotIndent" />
+    <Property name="IndentPreprocessorDirectives" value="true" />
+    <Property name="IndentBlocksInsideExpressions" value="false" />
+
+    <!-- Braces -->
+    <Property name="NamespaceBraceStyle" value="NextLine" />
+    <Property name="ClassBraceStyle" value="NextLine" />
+    <Property name="InterfaceBraceStyle" value="NextLine" />
+    <Property name="StructBraceStyle" value="NextLine" />
+    <Property name="EnumBraceStyle" value="NextLine" />
+    <Property name="MethodBraceStyle" value="NextLine" />
+    <Property name="AnonymousMethodBraceStyle" value="NextLine" />
+    <Property name="ConstructorBraceStyle" value="NextLine" />
+    <Property name="DestructorBraceStyle" value="NextLine" />
+    <Property name="PropertyBraceStyle" value="NextLine" />
+    <Property name="PropertyGetBraceStyle" value="NextLine" />
+    <Property name="PropertySetBraceStyle" value="NextLine" />
+    <Property name="SimpleGetBlockFormatting" value="AllowOneLine" />
+    <Property name="SimpleSetBlockFormatting" value="AllowOneLine" />
+    <Property name="EventBraceStyle" value="NextLine" />
+    <Property name="EventAddBraceStyle" value="NextLine" />
+    <Property name="EventRemoveBraceStyle" value="NextLine" />
+    <Property name="AllowEventAddBlockInline" value="true" />
+    <Property name="AllowEventRemoveBlockInline" value="true" />
+    <Property name="StatementBraceStyle" value="NextLine" />
+    <Property name="AllowIfBlockInline" value="true" />
+    <Property name="AllowOneLinedArrayInitialziers" value="true" />
+
+    <!-- NewLines -->
+    <Property name="ElseNewLinePlacement" value="DoNotCare" />
+    <Property name="ElseIfNewLinePlacement" value="DoNotCare" />
+    <Property name="CatchNewLinePlacement" value="NewLine" />
+    <Property name="FinallyNewLinePlacement" value="NewLine" />
+    <Property name="WhileNewLinePlacement" value="NewLine" />
+    <Property name="EmbeddedStatementPlacement" value="DoNotCare" />
+
+    <!-- Spaces -->
+    <!-- Spaces Methods -->
+    <Property name="SpaceBeforeMethodDeclarationParentheses" value="false" />
+    <Property name="SpaceBetweenEmptyMethodDeclarationParentheses" value="false" />
+    <Property name="SpaceBeforeMethodDeclarationParameterComma" value="false" />
+    <Property name="SpaceAfterMethodDeclarationParameterComma" value="true" />
+    <Property name="SpaceWithinMethodDeclarationParentheses" value="false" />
+
+    <!-- Spaces Method calls -->
+    <Property name="SpaceBeforeMethodCallParentheses" value="false" />
+    <Property name="SpaceBetweenEmptyMethodCallParentheses" value="false" />
+    <Property name="SpaceBeforeMethodCallParameterComma" value="false" />
+    <Property name="SpaceAfterMethodCallParameterComma" value="true" />
+    <Property name="SpaceWithinMethodCallParentheses" value="false" />
+
+    <!-- Spaces fields -->
+    <Property name="SpaceBeforeFieldDeclarationComma" value="false" />
+    <Property name="SpaceAfterFieldDeclarationComma" value="true" />
+
+    <!-- Spaces local variables -->
+    <Property name="SpaceBeforeLocalVariableDeclarationComma" value="false" />
+    <Property name="SpaceAfterLocalVariableDeclarationComma" value="true" />
+
+    <!-- Spaces constructors -->
+    <Property name="SpaceBeforeConstructorDeclarationParentheses" value="false" />
+    <Property name="SpaceBetweenEmptyConstructorDeclarationParentheses" value="false" />
+    <Property name="SpaceBeforeConstructorDeclarationParameterComma" value="false" />
+    <Property name="SpaceAfterConstructorDeclarationParameterComma" value="true" />
+    <Property name="SpaceWithinConstructorDeclarationParentheses" value="false" />
+    <Property name="NewLineBeforeConstructorInitializerColon" value="DoNotCare" />
+    <Property name="NewLineAfterConstructorInitializerColon" value="DoNotCare" />
+
+    <!-- Spaces indexer -->
+    <Property name="SpaceBeforeIndexerDeclarationBracket" value="false" />
+    <Property name="SpaceWithinIndexerDeclarationBracket" value="false" />
+    <Property name="SpaceBeforeIndexerDeclarationParameterComma" value="false" />
+    <Property name="SpaceAfterIndexerDeclarationParameterComma" value="true" />
+
+    <!-- Spaces delegates -->
+    <Property name="SpaceBeforeDelegateDeclarationParentheses" value="false" />
+    <Property name="SpaceBetweenEmptyDelegateDeclarationParentheses" value="false" />
+    <Property name="SpaceBeforeDelegateDeclarationParameterComma" value="false" />
+    <Property name="SpaceAfterDelegateDeclarationParameterComma" value="false" />
+    <Property name="SpaceWithinDelegateDeclarationParentheses" value="false" />
+    <Property name="SpaceBeforeNewParentheses" value="false" />
+    <Property name="SpaceBeforeIfParentheses" value="true" />
+    <Property name="SpaceBeforeWhileParentheses" value="true" />
+    <Property name="SpaceBeforeForParentheses" value="true" />
+    <Property name="SpaceBeforeForeachParentheses" value="true" />
+    <Property name="SpaceBeforeCatchParentheses" value="true" />
+    <Property name="SpaceBeforeSwitchParentheses" value="true" />
+    <Property name="SpaceBeforeLockParentheses" value="true" />
+    <Property name="SpaceBeforeUsingParentheses" value="true" />
+    <Property name="SpaceAroundAssignment" value="true" />
+    <Property name="SpaceAroundLogicalOperator" value="true" />
+    <Property name="SpaceAroundEqualityOperator" value="true" />
+    <Property name="SpaceAroundRelationalOperator" value="true" />
+    <Property name="SpaceAroundBitwiseOperator" value="true" />
+    <Property name="SpaceAroundAdditiveOperator" value="true" />
+    <Property name="SpaceAroundMultiplicativeOperator" value="true" />
+    <Property name="SpaceAroundShiftOperator" value="true" />
+    <Property name="SpaceAroundNullCoalescingOperator" value="true" />
+    <Property name="SpaceAfterUnsafeAddressOfOperator" value="false" />
+    <Property name="SpaceAfterUnsafeAsteriskOfOperator" value="false" />
+    <Property name="SpaceAroundUnsafeArrowOperator" value="false" />
+    <Property name="SpacesWithinParentheses" value="false" />
+    <Property name="SpacesWithinIfParentheses" value="false" />
+    <Property name="SpacesWithinWhileParentheses" value="false" />
+    <Property name="SpacesWithinForParentheses" value="false" />
+    <Property name="SpacesWithinForeachParentheses" value="false" />
+    <Property name="SpacesWithinCatchParentheses" value="false" />
+    <Property name="SpacesWithinSwitchParentheses" value="false" />
+    <Property name="SpacesWithinLockParentheses" value="false" />
+    <Property name="SpacesWithinUsingParentheses" value="false" />
+    <Property name="SpacesWithinCastParentheses" value="false" />
+    <Property name="SpacesWithinSizeOfParentheses" value="false" />
+    <Property name="SpaceBeforeSizeOfParentheses" value="false" />
+    <Property name="SpacesWithinTypeOfParentheses" value="false" />
+    <Property name="SpacesWithinNewParentheses" value="false" />
+    <Property name="SpacesBetweenEmptyNewParentheses" value="false" />
+    <Property name="SpaceBeforeNewParameterComma" value="false" />
+    <Property name="SpaceAfterNewParameterComma" value="true" />
+    <Property name="SpaceBeforeTypeOfParentheses" value="false" />
+    <Property name="SpacesWithinCheckedExpressionParantheses" value="false" />
+    <Property name="SpaceBeforeConditionalOperatorCondition" value="true" />
+    <Property name="SpaceAfterConditionalOperatorCondition" value="true" />
+    <Property name="SpaceBeforeConditionalOperatorSeparator" value="true" />
+    <Property name="SpaceAfterConditionalOperatorSeparator" value="true" />
+
+    <!-- Spaces brackets -->
+    <Property name="SpacesWithinBrackets" value="false" />
+    <Property name="SpacesBeforeBrackets" value="false" />
+    <Property name="SpaceBeforeBracketComma" value="false" />
+    <Property name="SpaceAfterBracketComma" value="true" />
+    <Property name="SpaceBeforeForSemicolon" value="false" />
+    <Property name="SpaceAfterForSemicolon" value="true" />
+    <Property name="SpaceAfterTypecast" value="false" />
+    <Property name="SpaceBeforeArrayDeclarationBrackets" value="false" />
+    <Property name="SpaceInNamedArgumentAfterDoubleColon" value="false" />
+    <Property name="RemoveEndOfLineWhiteSpace" value="true" />
+    <Property name="SpaceBeforeSemicolon" value="false" />
+
+    <!-- Blank Lines -->
+    <Property name="MinimumBlankLinesBeforeUsings" value="1" />
+    <Property name="MinimumBlankLinesAfterUsings" value="1" />
+    <Property name="MinimumBlankLinesBeforeFirstDeclaration" value="1" />
+    <Property name="MinimumBlankLinesBetweenTypes" value="1" />
+    <Property name="MinimumBlankLinesBetweenFields" value="1" />
+    <Property name="MinimumBlankLinesBetweenEventFields" value="1" />
+    <Property name="MinimumBlankLinesBetweenMembers" value="1" />
+    <Property name="MinimumBlankLinesAroundRegion" value="1" />
+    <Property name="MinimumBlankLinesInsideRegion" value="1" />
+
+    <!-- Keep formatting -->
+    <Property name="KeepCommentsAtFirstColumn" value="true" />
+
+    <!-- Wrapping -->
+    <Property name="ArrayInitializerWrapping" value="DoNotChange" />
+    <Property name="ArrayInitializerBraceStyle" value="DoNotChange" />
+    <Property name="ChainedMethodCallWrapping" value="DoNotChange" />
+    <Property name="MethodCallArgumentWrapping" value="DoNotChange" />
+    <Property name="NewLineAferMethodCallOpenParentheses" value="NewLine" />
+    <Property name="MethodCallClosingParenthesesOnNewLine" value="NewLine" />
+    <Property name="IndexerArgumentWrapping" value="DoNotChange" />
+    <Property name="NewLineAferIndexerOpenBracket" value="NewLine" />
+    <Property name="IndexerClosingBracketOnNewLine" value="NewLine" />
+    <Property name="MethodDeclarationParameterWrapping" value="DoNotChange" />
+    <Property name="NewLineAferMethodDeclarationOpenParentheses" value="NewLine" />
+    <Property name="MethodDeclarationClosingParenthesesOnNewLine" value="NewLine" />
+    <Property name="IndexerDeclarationParameterWrapping" value="DoNotChange" />
+    <Property name="NewLineAferIndexerDeclarationOpenBracket" value="NewLine" />
+    <Property name="IndexerDeclarationClosingBracketOnNewLine" value="NewLine" />
+    <Property name="AlignToFirstIndexerArgument" value="true" />
+    <Property name="AlignToFirstIndexerDeclarationParameter" value="true" />
+    <Property name="AlignToFirstMethodCallArgument" value="true" />
+    <Property name="AlignToFirstMethodDeclarationParameter" value="true" />
+    <Property name="NewLineBeforeNewQueryClause" value="NewLine" />
+
+    <!-- Using Declarations -->
+    <Property name="UsingPlacement" value="InsideNamespace" />
+  </FormattingProfile>
+
+  <TextEditorProfile>
+    <Property name="TabsToSpaces" value="true" />
+    <Property name="TabSize" value="4" />
+    <Property name="IndentSize" value="4" />
+    <Property name="ContinuationIndent" value="4" />
+    <Property name="LabelIndent" value="4" />
+    <Property name="IndentBlankLines" value="false" />
+    <Property name="WrapLineLength" value="4" />
+  </TextEditorProfile>
+</Options>
