@@ -4,6 +4,7 @@ using System.Xml;
 using System.Text;
 using System.Linq;
 using ICSharpCode.NRefactory.CSharp;
+using ICSharpCode.NRefactory.Editor;
 
 namespace CheeseCake
 {
@@ -21,10 +22,20 @@ namespace CheeseCake
 
       var policy = LoadFormattingProfile (optionFileName);
       var options = LoadTextEditorProfile (optionFileName);
+      var settings = new CompilerSettings ();
+      settings.ConditionalSymbols.Add ("UNITY_EDITOR");
+      settings.ConditionalSymbols.Add ("UNITY_IOS");
+      settings.ConditionalSymbols.Add ("UNITY_ANDROID");
       var formatter = new CSharpFormatter (policy, options);
 
       var text = File.ReadAllText(sourceFileName);
-      File.WriteAllText (sourceFileName, formatter.Format (text), Encoding.UTF8);
+      var document = new StringBuilderDocument (text);
+
+      var syntaxTree = SyntaxTree.Parse (document, document.FileName, settings);
+      var changes = formatter.AnalyzeFormatting(document, syntaxTree);
+      changes.ApplyChanges();
+
+      File.WriteAllText (sourceFileName, document.Text, Encoding.UTF8);
     }
 
     public static CSharpFormattingOptions LoadFormattingProfile (string selectedFile)
