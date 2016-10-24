@@ -19,13 +19,13 @@
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="ICSharpCode.NRefactory.Cecil">
-      <HintPath>..\Bridge.NRefactory.5.5.3\lib\ICSharpCode.NRefactory.Cecil.dll</HintPath>
+      <HintPath>..\Bridge.NRefactory.5.5.4\lib\net40\ICSharpCode.NRefactory.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory.CSharp">
-      <HintPath>..\Bridge.NRefactory.5.5.3\lib\ICSharpCode.NRefactory.CSharp.dll</HintPath>
+      <HintPath>..\Bridge.NRefactory.5.5.4\lib\net40\ICSharpCode.NRefactory.CSharp.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
-      <HintPath>..\Bridge.NRefactory.5.5.3\lib\ICSharpCode.NRefactory.dll</HintPath>
+      <HintPath>..\Bridge.NRefactory.5.5.4\lib\net40\ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
